@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Vídeos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Galeria de Vídeos</h1>
+  <div class="video-grid">
+    
+    <!-- Exemplo com link do YouTube -->
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Exemplo com arquivo MP4 -->
+    <div class="video">
+      <video controls>
+        <source src="https://meu-servidor.com/video3.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
+    </div>
+
+    <!-- Repita até ter os 10 vídeos -->
+  </div>
+</body>
+</html>
